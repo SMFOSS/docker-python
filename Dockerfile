@@ -29,6 +29,7 @@ RUN pip install \
     gunicorn==18.0 \
     ipython \
     lxml \
+    msgpack-python \
     numpy \
     pandas \
     pdbpp \
