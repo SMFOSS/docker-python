@@ -23,6 +23,8 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -yq \
     zlib1g-dev
 
 RUN pip install \
+    ansible \
+    ansible-shell \
     bpython \
     Cython \
     gevent \
@@ -35,6 +37,7 @@ RUN pip install \
     pdbpp \
     Pillow \
     pylibmc \
+    pycrypto \
     pymssql \
     pyramid \
     pyzmq \
